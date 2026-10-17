@@ -1,0 +1,310 @@
+[
+  {
+    "id": "society-campaigns",
+    "title": "Society campaigns",
+    "short": "Society drives",
+    "icon": "building",
+    "group": "Community",
+    "description": "Planned recyclable collection drives for residential societies and neighbourhoods.",
+    "details": "Bring a whole community’s sorted scrap into one organised collection. Plan the location, material mix and a convenient collection window with the society coordinator.",
+    "scope": [
+      "Household paper, cardboard, plastic and separated metals",
+      "Collection point and resident coordination",
+      "One-time drives or an agreed recurring schedule"
+    ],
+    "prepare": [
+      "Society name, locality and coordinator details",
+      "Approximate participating homes and material quantities",
+      "Space for collection and vehicle access"
+    ],
+    "materials": [
+      "paper",
+      "cardboard",
+      "plastic"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/society-campaigns"
+  },
+  {
+    "id": "vehicle-scrapping",
+    "title": "Vehicle scrapping services",
+    "short": "Vehicle scrapping",
+    "icon": "vehicle",
+    "group": "Specialist",
+    "description": "Vehicle valuation, collection planning and paperwork coordination for old vehicles.",
+    "details": "Plan the next step for an old vehicle with the condition, ownership details and collection access reviewed together. The published four-wheeler rate uses weight; the final valuation and paperwork scope are agreed before collection.",
+    "scope": [
+      "Vehicle condition and valuation review",
+      "Loading and pickup access planning",
+      "Scrapping paperwork coordination within the agreed scope"
+    ],
+    "prepare": [
+      "Vehicle type, condition and approximate location",
+      "Ownership and vehicle documents available for review",
+      "Whether the vehicle can move and how it can be accessed"
+    ],
+    "materials": [
+      "vehicle-four"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/materials/vehicle-four"
+  },
+  {
+    "id": "paper-shredding",
+    "title": "Paper shredding services",
+    "short": "Paper shredding",
+    "icon": "shredder",
+    "group": "Specialist",
+    "description": "Scheduled shredding for confidential paper and records, with destruction documentation arranged in the service scope.",
+    "details": "Keep sensitive records separate from ordinary paper scrap. We plan the quantity, handling, shredding arrangement and destruction documentation before the service.",
+    "scope": [
+      "Confidential paper and record-clearing enquiries",
+      "Handling and shredding schedule",
+      "Destruction record or certificate as agreed for the service"
+    ],
+    "prepare": [
+      "Approximate volume or weight of records",
+      "Any custody, witnessing or access requirements",
+      "Required destruction documentation and preferred schedule"
+    ],
+    "materials": [
+      "paper-other"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/paper-shredding"
+  },
+  {
+    "id": "corporate-ewaste",
+    "title": "Industrial & corporate e-waste disposal",
+    "short": "Corporate e-waste",
+    "icon": "monitor",
+    "group": "Specialist",
+    "description": "Organised collection enquiries for bulk electronics from factories, IT parks and offices.",
+    "details": "Share an asset list so equipment type, condition, quantity, data-handling instructions and pickup logistics can be reviewed before a bulk collection is agreed.",
+    "scope": [
+      "Computers, monitors, printers, UPS and related equipment",
+      "Bulk inventory and pickup planning",
+      "Data-handling and documentation requirements agreed before collection"
+    ],
+    "prepare": [
+      "An item-wise equipment list and quantities",
+      "Data-handling instructions from the asset owner",
+      "Loading access, floor and lift details"
+    ],
+    "materials": [
+      "cpu",
+      "monitor",
+      "printer",
+      "ups"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/corporate-ewaste"
+  },
+  {
+    "id": "doorstep-pickup",
+    "title": "Door to door pickup",
+    "short": "Doorstep pickup",
+    "icon": "truck",
+    "group": "Home",
+    "description": "A convenient pickup request for sorted household scrap, starting in Baripada.",
+    "details": "Make a little more room at home. Select your materials, share the locality and choose a preferred day. The final pickup window is confirmed before collection.",
+    "scope": [
+      "Paper, cardboard, plastic, reusable clothes and separated metals",
+      "Material-wise weighing and rate discussion",
+      "A preferred day followed by pickup confirmation"
+    ],
+    "prepare": [
+      "Keep paper dry and flatten cardboard",
+      "Separate materials and safely pack glass",
+      "Share floor, lift and access details"
+    ],
+    "materials": [
+      "paper"
+    ],
+    "reviewOnly": false,
+    "image": "/assets/services/doorstep-pickup"
+  },
+  {
+    "id": "packaging-industry",
+    "title": "Packaging industry scrap",
+    "short": "Packaging scrap",
+    "icon": "box",
+    "group": "Business",
+    "description": "Collection planning for corrugated boxes, kraft and separated packaging offcuts.",
+    "details": "Keep production and packaging areas clearer with an agreed collection plan for separated kraft, corrugated boxes and suitable packaging material.",
+    "scope": [
+      "Corrugated boxes and kraft waste",
+      "Separated packaging production offcuts",
+      "One-time clearances or planned repeat collections"
+    ],
+    "prepare": [
+      "Material grades and approximate weights",
+      "Loose, flattened or baled condition",
+      "Storage location and loading access"
+    ],
+    "materials": [
+      "cardboard",
+      "plastic"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/packaging-industry"
+  },
+  {
+    "id": "construction-site",
+    "title": "Construction site scrap",
+    "short": "Construction scrap",
+    "icon": "helmet",
+    "group": "Business",
+    "description": "Separated metal, pipe offcuts, wire and suitable packaging scrap from worksites.",
+    "details": "Describe the material and site access so collection can be planned around the work area. Heavy or awkward pieces need a separately agreed loading arrangement.",
+    "scope": [
+      "Metal and GI pipe offcuts",
+      "Copper or aluminium wire and suitable PVC scrap",
+      "Separated kraft and packaging waste"
+    ],
+    "prepare": [
+      "Material-wise quantities and photographs if available",
+      "Site entry instructions and loading arrangements",
+      "Any restricted access or lifting needs"
+    ],
+    "materials": [
+      "iron",
+      "copper",
+      "aluminium",
+      "cardboard"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/construction-site"
+  },
+  {
+    "id": "it-companies",
+    "title": "IT companies scrap",
+    "short": "IT asset clean-outs",
+    "icon": "monitor",
+    "group": "Business",
+    "description": "Planned clearances of old computers, monitors, printers, servers, UPS and related equipment.",
+    "details": "Keep an item-wise equipment list ready and identify any data-bearing assets. Agree the handling instructions and collection plan before the equipment leaves your premises.",
+    "scope": [
+      "Desktop towers, monitors, printers and UPS",
+      "Related office electronics and mixed equipment enquiries",
+      "One-time or scheduled asset clearances"
+    ],
+    "prepare": [
+      "Equipment list, quantities and condition",
+      "Asset ownership and data-handling instructions",
+      "Floor, lift and vehicle access"
+    ],
+    "materials": [
+      "cpu",
+      "monitor",
+      "printer",
+      "ups"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/it-companies"
+  },
+  {
+    "id": "colleges-institutions",
+    "title": "College & institution scrap",
+    "short": "Institution scrap",
+    "icon": "graduation",
+    "group": "Business",
+    "description": "Collection enquiries for journals, assignments, answer sheets and other institutional paper waste.",
+    "details": "Plan a clearance around your academic schedule. Separate ordinary recyclable paper from confidential records that need a dedicated shredding arrangement.",
+    "scope": [
+      "Old journals, assignments and answer sheets",
+      "Books and separated paper waste",
+      "Campus collection coordination"
+    ],
+    "prepare": [
+      "Approximate paper volumes and storage locations",
+      "Whether records require confidential destruction",
+      "Campus access and preferred collection dates"
+    ],
+    "materials": [
+      "books",
+      "paper-other"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/colleges-institutions"
+  },
+  {
+    "id": "printing-press",
+    "title": "Printing press scrap",
+    "short": "Printing press scrap",
+    "icon": "printer",
+    "group": "Business",
+    "description": "Sorted paper offcuts, book cutting, LCC, rim cutting, newsprint and wrapper waste.",
+    "details": "Keep production offcuts separated by grade so quantities and rates can be discussed clearly. Share the material mix, storage condition and expected collection frequency.",
+    "scope": [
+      "Book cutting, LCC and rim cutting enquiries",
+      "Newsprint and wrapper waste",
+      "Separated paper and kraft grades"
+    ],
+    "prepare": [
+      "The paper grades and approximate weights",
+      "Loose or baled storage condition",
+      "Production schedule and loading access"
+    ],
+    "materials": [
+      "paper-other",
+      "cardboard",
+      "paper"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/printing-press"
+  },
+  {
+    "id": "society-redevelopment",
+    "title": "Society redevelopment scrap",
+    "short": "Redevelopment scrap",
+    "icon": "building",
+    "group": "Community",
+    "description": "Clearance planning for doors, window sections, grills, taps, wiring and other recoverable material.",
+    "details": "Organise material recovery during a society redevelopment or renovation. List the items, dismantling status and access needs so removal and loading can be planned before work begins.",
+    "scope": [
+      "Safety doors, window sections and metal grills",
+      "Taps, wiring and other separated material",
+      "Removal and loading scope agreed before collection"
+    ],
+    "prepare": [
+      "Item list and approximate quantities",
+      "Whether items are dismantled and safe to move",
+      "Site permissions, lifting and vehicle access"
+    ],
+    "materials": [
+      "iron",
+      "aluminium",
+      "steel-taps",
+      "copper"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/society-redevelopment"
+  },
+  {
+    "id": "bank-office",
+    "title": "Bank / office scrap",
+    "short": "Office clearances",
+    "icon": "bank",
+    "group": "Business",
+    "description": "Paper, fixtures and equipment clearances, with confidential document handling arranged separately.",
+    "details": "Plan an office clean-out with paper, fixtures and electronics listed separately. Sensitive records need an agreed handling and shredding scope before collection.",
+    "scope": [
+      "Paper files and ordinary recyclable office material",
+      "Office metal fixtures and equipment enquiries",
+      "Document shredding coordination within the agreed scope"
+    ],
+    "prepare": [
+      "Material and equipment inventory",
+      "Confidentiality and destruction requirements",
+      "Building access, floors and preferred schedule"
+    ],
+    "materials": [
+      "paper-other",
+      "iron-cupboard",
+      "cpu"
+    ],
+    "reviewOnly": true,
+    "image": "/assets/services/bank-office"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "city": "Baripada",
+  "checkedAt": "2026-10-17",
+  "sourceTitle": "Baripada Municipality — RTI Odisha, list of villages/localities by ward",
+  "sourceUrl": "https://rtiodisha.gov.in/Pages/printAllManual/office_id:2031/lang:",
+  "note": "Locality labels follow the municipality RTI directory. A ward label does not confirm current boundaries or pickup availability.",
+  "wards": [
+    {
+      "ward": 1,
+      "name": "Belgadia & Tanka Sahi",
+      "sourceName": "Belgadia & Tanka Sahi"
+    },
+    {
+      "ward": 2,
+      "name": "Chakra Sahi, Bhanjpur",
+      "sourceName": "Chakra Sahi, Bhanjpu"
+    },
+    {
+      "ward": 3,
+      "name": "Walliganj, Forest Colony",
+      "sourceName": "Walliganj, Forest Colony"
+    },
+    {
+      "ward": 4,
+      "name": "Lalbazar",
+      "sourceName": "Lalbazar"
+    },
+    {
+      "ward": 5,
+      "name": "Babusahi, Swarupnagar",
+      "sourceName": "Babusahi, Swarupnagar"
+    },
+    {
+      "ward": 6,
+      "name": "Puruna Hata Sahi",
+      "sourceName": "Puruna Hata Sahi"
+    },
+    {
+      "ward": 7,
+      "name": "Madhuban, HUDCO Colony Sahi",
+      "sourceName": "Madhuban, Huddco Colony Sahi"
+    },
+    {
+      "ward": 8,
+      "name": "Sankhapata, Sabar Sahi",
+      "sourceName": "Sankhapata, Sabar Sahi"
+    },
+    {
+      "ward": 9,
+      "name": "Baruni Road, Madhuban",
+      "sourceName": "Baruni Road, Madhuban"
+    },
+    {
+      "ward": 10,
+      "name": "Kalimandir Sahi",
+      "sourceName": "Kalimandir Sahi"
+    },
+    {
+      "ward": 11,
+      "name": "Naharpada",
+      "sourceName": "Naharpada"
+    },
+    {
+      "ward": 12,
+      "name": "Prafulla Nagar",
+      "sourceName": "Prafulla Nagar"
+    },
+    {
+      "ward": 13,
+      "name": "Sripadganj",
+      "sourceName": "Sripadganj"
+    },
+    {
+      "ward": 14,
+      "name": "Tulasi Chaura",
+      "sourceName": "Tulasi Chaura"
+    },
+    {
+      "ward": 15,
+      "name": "Purna Chandra Pur",
+      "sourceName": "Purna Chandra Pur"
+    },
+    {
+      "ward": 16,
+      "name": "Pared Padia",
+      "sourceName": "Pared Padia"
+    },
+    {
+      "ward": 17,
+      "name": "Bijay Ramchandrapur",
+      "sourceName": "Bijay Ramchandrapur"
+    },
+    {
+      "ward": 18,
+      "name": "Jamunadeipur",
+      "sourceName": "Jamunadeipur"
+    },
+    {
+      "ward": 19,
+      "name": "Balarampur",
+      "sourceName": "Balarampur"
+    },
+    {
+      "ward": 20,
+      "name": "Sungadia",
+      "sourceName": "Sungadia"
+    },
+    {
+      "ward": 21,
+      "name": "Bijay Purnachandrapur",
+      "sourceName": "Bijay Purnachandrapur"
+    },
+    {
+      "ward": 22,
+      "name": "Raghunathpur",
+      "sourceName": "Raghunathpur"
+    },
+    {
+      "ward": 23,
+      "name": "Tulasichaura",
+      "sourceName": "Tulasichaura"
+    },
+    {
+      "ward": 24,
+      "name": "Kalikapur",
+      "sourceName": "Kalikapur"
+    },
+    {
+      "ward": 25,
+      "name": "Debendrapur",
+      "sourceName": "Debendrapur"
+    },
+    {
+      "ward": 26,
+      "name": "Bhugudakata",
+      "sourceName": "Bhugudakata"
+    },
+    {
+      "ward": 27,
+      "name": "Maharajpur",
+      "sourceName": "Maharajpur"
+    },
+    {
+      "ward": 28,
+      "name": "Bagdiha, Karatabasa",
+      "sourceName": "Bagdiha, Karatabasa"
+    }
+  ]
+}
