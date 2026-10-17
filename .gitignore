@@ -1,0 +1,10 @@
+.local/
+node_modules/
+test-results/
+__pycache__/
+.DS_Store
+design/
+.env
+.env.*
+*.sqlite3*
+*.log

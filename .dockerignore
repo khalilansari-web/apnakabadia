@@ -1,0 +1,8 @@
+.git
+.local
+node_modules
+design
+test-results
+__pycache__
+*.zip
+.env*
