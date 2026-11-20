@@ -1,4 +1,4 @@
-"""APNA KABADI request handlers. Local preview plus a hosted public-test adapter."""
+"""APNA KABADIA request handlers. Local preview plus a hosted public-test adapter."""
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlsplit, unquote, parse_qs
@@ -183,7 +183,7 @@ class Handler(BaseHTTPRequestHandler):
             if method!='HEAD':self.wfile.write(raw)
             return
         if method=='GET' and path=='/api/config':
-            c=settings();c['articles']=[a for a in c['articles'] if a['status']!='draft'];return self.reply(200,{**c,'csrf':CSRF,'mode':'public-test' if PUBLIC_TEST else 'local','today':datetime.now(TZ).date().isoformat(),'brand':'APNA KABADI','tagline':'Apna kabadi, sahi daam.','services':SERVICES,'localityDirectory':LOCALITIES})
+            c=settings();c['articles']=[a for a in c['articles'] if a['status']!='draft'];return self.reply(200,{**c,'csrf':CSRF,'mode':'public-test' if PUBLIC_TEST else 'local','today':datetime.now(TZ).date().isoformat(),'brand':'APNA KABADIA','tagline':'Apna Kabadia, Sahi Daam.','services':SERVICES,'localityDirectory':LOCALITIES})
         if method=='GET' and path=='/api/slots':
             day=parse_qs(urlsplit(self.path).query).get('date',[''])[0]
             try:datetime.strptime(day,'%Y-%m-%d')
@@ -203,7 +203,7 @@ class Handler(BaseHTTPRequestHandler):
                 for r in rows:
                     p=json.loads(r['payload']);values=[r['id'],r['name'],r['phone'],p['locality'],p['date'],p['slot'],', '.join(p['materials']),next((x['title'] for x in SERVICES if x['id']==p.get('service')),''),str(p.get('ward','')),'Requested' if p.get('quoteRequested') else '',r['status'],r['created']]
                     w.writerow(["'"+v if str(v).startswith(('=','+','-','@','\t','\r')) else v for v in values])
-                raw=stream.getvalue().encode();self.send_response(200);self.send_header('Content-Type','text/csv; charset=utf-8');self.send_header('Content-Disposition','attachment; filename="apna-kabadi-local-requests.csv"');self.finish_headers();self.wfile.write(raw);return
+                raw=stream.getvalue().encode();self.send_response(200);self.send_header('Content-Type','text/csv; charset=utf-8');self.send_header('Content-Disposition','attachment; filename="apna-kabadia-local-requests.csv"');self.finish_headers();self.wfile.write(raw);return
         if method not in ['POST','PATCH']:raise Problem(404,'Not found.')
         b=self.body()
         if path=='/api/bookings' and method=='POST':
@@ -315,7 +315,7 @@ class Handler(BaseHTTPRequestHandler):
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--port',type=int,default=8427);args=parser.parse_args()
     server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler)
-    print(f'APNA KABADI local preview: http://127.0.0.1:{args.port}',flush=True)
+    print(f'APNA KABADIA local preview: http://127.0.0.1:{args.port}',flush=True)
     print(f'Local desk passcode is in {KEY_FILE}. No messages or payments are sent.',flush=True)
     try:server.serve_forever()
     except KeyboardInterrupt:server.server_close()
