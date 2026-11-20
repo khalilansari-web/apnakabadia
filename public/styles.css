@@ -85,3 +85,19 @@
 @media(max-width:1100px){.nav-bar nav{gap:19px}.news-grid{gap:18px}.news-card-copy{padding:22px}.news-card h3{font-size:23px}.article-layout{gap:40px;grid-template-columns:minmax(0,1fr) 280px}.press-editor-row{grid-template-columns:1fr 1fr}.service-detail-photo img{height:290px}}
 @media(max-width:760px){.news-grid,.press-grid{grid-template-columns:1fr}.news-card-photo{height:240px}.news-card-copy{padding:25px}.news-card h3{font-size:26px}.news-home h2,.featured-section h2{font-size:38px}.news-filter{align-items:flex-start;flex-direction:column}.article-cover img{height:270px;border-radius:15px}.article-heading .lead{font-size:17px}.article-layout{grid-template-columns:1fr;gap:35px}.article-body{font-size:17px}.article-body h2{font-size:28px}.article-aside{position:static}.service-detail-title{grid-template-columns:1fr;gap:30px}.service-detail-photo{transform:none}.service-detail-photo img{height:250px}.content-editor{grid-template-columns:1fr}.press-editor-row{grid-template-columns:1fr}.footer-connect{grid-column:1/-1}.footer-socials{gap:25px}.service-card .service-card-photo{height:190px}.press-empty{align-items:flex-start;padding:25px}.press-empty h3{font-size:23px}}
 @media(max-width:520px){.service-card .service-card-photo{margin:-28px -28px 24px;height:210px}.service-card{min-height:0}.article-heading h1{font-size:39px}.article-body{font-size:16px}.article-body h2{font-size:26px}.news-card h3{font-size:25px}}
+
+/* Supplied R2 logo: original geometry and alpha preserved in lossless assets. */
+.brand-logo,.brand-mark{object-fit:contain}
+.brand-link .brand-logo{width:220px;height:auto}
+.footer-brand .brand-logo{width:260px;height:auto;margin-left:0}
+.brand-logo--inverse,.brand-mark--inverse{filter:brightness(0) invert(1)}
+.home-local-mark>.brand-mark--inverse{filter:brightness(0) invert(1) drop-shadow(14px 16px 0 #0e3caa)}
+@media(max-width:1200px){.brand-link .brand-logo{width:195px}}
+@media(max-width:760px){.brand-link .brand-logo{width:185px}.footer-brand .brand-logo{width:235px}}
+@media(max-width:480px){.brand-link .brand-logo{width:175px}}
+
+.hero-roundel>span:last-child{font-size:9px;letter-spacing:.6px;white-space:nowrap;text-align:center;line-height:1.4}
+@media(max-width:760px){.hero-roundel>span:last-child{font-size:8px;letter-spacing:.4px}}
+
+/* Give both halves of the tagline the same regular weight. */
+.home-hero-tagline,.hero-tagline,.aside-tagline,.cta-actions>span,.footer-brand>span{font-weight:400}
