@@ -1,0 +1,20 @@
+[
+  {
+    "source": "APNA_KABADIA_R2_Full_Logo_Transparent.png",
+    "sourceSha256": "d2025a860be822b12d26ddb8dd7fc0d0bc9cd7edeba9c5ace15f3d87142aa23d",
+    "websiteFile": "apna-kabadia-r2-logo.webp",
+    "width": 1836,
+    "height": 857,
+    "bytes": 342690,
+    "decodedPixelsMatchSource": true
+  },
+  {
+    "source": "APNA_KABADIA_R2_Standalone_Symbol_Transparent.png",
+    "sourceSha256": "64457099f0f844ca9f2c152ecdcb3efe55f24aaa2f885c612efa03819e870e5a",
+    "websiteFile": "apna-kabadia-r2-symbol.webp",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 336136,
+    "decodedPixelsMatchSource": true
+  }
+]
